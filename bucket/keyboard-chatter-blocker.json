@@ -1,9 +1,9 @@
 {
     "version": "1.21",
     "description": "Utility for blocking keyboard chatter",
-    "homepage": "https://github.com/mcmonkeyprojects/KeyboardChatterBlocker",
+    "homepage": "https://github.com/FreneticLLC/KeyboardChatterBlocker",
     "license": "MIT",
-    "url": "https://github.com/mcmonkeyprojects/KeyboardChatterBlocker/releases/download/1.21/KeyboardChatterBlocker.exe",
+    "url": "https://github.com/FreneticLLC/KeyboardChatterBlocker/releases/download/1.21/KeyboardChatterBlocker.exe",
     "hash": "da47b9b418403245b5854328bdfea8fb25e38e831cc1d9f25145da39c1f6d2b0",
     "pre_install": "if (!(Test-Path \"$persist_dir\\config.txt\")) { New-Item \"$dir\\config.txt\" | Out-Null }",
     "shortcuts": [
@@ -15,6 +15,6 @@
     "persist": "config.txt",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/mcmonkeyprojects/KeyboardChatterBlocker/releases/download/$version/KeyboardChatterBlocker.exe"
+        "url": "https://github.com/FreneticLLC/KeyboardChatterBlocker/releases/download/$version/KeyboardChatterBlocker.exe"
     }
 }

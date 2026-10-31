@@ -7,7 +7,7 @@
         ".NET Desktop Runtime 9.0": "versions/windowsdesktop-runtime-9.0",
         "vcredist": "extras/vcredist2022"
     },
-    "url": "https://github.com/rocksdanister/lively/releases/download/v2.2.1.0/lively_setup_x86_full_v2210.exe",
+    "url": "https://github.com/lively-community/lively/releases/download/v2.2.1.0/lively_setup_x86_full_v2210.exe",
     "hash": "98f4e96bb8e2c416384eeaf48016eadaea9dce8263b8d212052775ebcf2d7e34",
     "innosetup": true,
     "bin": "Lively.exe",
@@ -23,12 +23,12 @@
         "}"
     ],
     "checkver": {
-        "github": "https://github.com/rocksdanister/lively"
+        "github": "https://github.com/lively-community/lively"
     },
     "autoupdate": {
-        "url": "https://github.com/rocksdanister/lively/releases/download/v$version/lively_setup_x86_full_v$cleanVersion.exe",
+        "url": "https://github.com/lively-community/lively/releases/download/v$version/lively_setup_x86_full_v$cleanVersion.exe",
         "hash": {
-            "url": "https://github.com/rocksdanister/lively/releases/latest",
+            "url": "https://github.com/lively-community/lively/releases/latest",
             "regex": ">SHA256</h2>\\n+<p>$sha256<"
         }
     }

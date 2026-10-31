@@ -21,7 +21,7 @@
         ]
     ],
     "checkver": {
-        "github": "https://github.com/zeit/hyper"
+        "github": "https://github.com/vercel/hyper"
     },
     "autoupdate": {
         "architecture": {

@@ -42,7 +42,7 @@
         "profile"
     ],
     "checkver": {
-        "github": "https://github.com/BrowserWorks/Waterfox"
+        "github": "https://github.com/BrowserWorks/waterfox"
     },
     "autoupdate": {
         "architecture": {
