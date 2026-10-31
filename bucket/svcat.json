@@ -11,7 +11,7 @@
     },
     "bin": "svcat.exe",
     "checkver": {
-        "github": "https://github.com/kubernetes-sigs/service-catalog",
+        "github": "https://github.com/kubernetes-retired/service-catalog",
         "regex": "cli/v([\\d.]+)/windows"
     },
     "autoupdate": {

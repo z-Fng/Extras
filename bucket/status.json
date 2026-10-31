@@ -5,7 +5,7 @@
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/status-im/status-desktop/releases/download/2.39.2/StatusIm-Desktop-2.39.2-f2e1c6-x86_64.7z",
+            "url": "https://github.com/status-im/status-app/releases/download/2.39.2/StatusIm-Desktop-2.39.2-f2e1c6-x86_64.7z",
             "hash": "de552f5b4e12bd1eae7e7aeec8ac6545de411c60f2226636fe4a23921cc6c632"
         }
     },
@@ -27,7 +27,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/status-im/status-desktop/releases/download/$matchVer/StatusIm-Desktop-$version-x86_64.7z"
+                "url": "https://github.com/status-im/status-app/releases/download/$matchVer/StatusIm-Desktop-$version-x86_64.7z"
             }
         }
     }
