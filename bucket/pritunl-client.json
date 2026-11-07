@@ -4,11 +4,11 @@
     "homepage": "https://client.pritunl.com",
     "license": {
         "identifier": "Freeware",
-        "url": "https://github.com/pritunl/pritunl-client-electron/blob/master/LICENSE"
+        "url": "https://github.com/pritunl/pritunl-client/blob/master/LICENSE"
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/pritunl/pritunl-client-electron/releases/download/1.4.4791.77/Pritunl.exe#/dl.exe",
+            "url": "https://github.com/pritunl/pritunl-client/releases/download/1.4.4791.77/Pritunl.exe#/dl.exe",
             "hash": "3ead176518ae7627921c902305770066afe07bac16c6e637647f70785696edc7"
         }
     },
@@ -39,9 +39,9 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/pritunl/pritunl-client-electron/releases/download/$version/Pritunl.exe#/dl.exe",
+                "url": "https://github.com/pritunl/pritunl-client/releases/download/$version/Pritunl.exe#/dl.exe",
                 "hash": {
-                    "url": "https://raw.githubusercontent.com/pritunl/pritunl-client-electron/master/SHA256",
+                    "url": "https://raw.githubusercontent.com/pritunl/pritunl-client/master/SHA256",
                     "regex": "$version[\\r\\n]+$sha256.*?$basename"
                 }
             }
