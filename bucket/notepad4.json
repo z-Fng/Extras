@@ -47,7 +47,7 @@
         "Notepad4 DarkTheme.ini"
     ],
     "checkver": {
-        "github": "https://github.com/zufuliu/notepad2",
+        "github": "https://github.com/zufuliu/notepad4",
         "regex": "([\\d.]+r\\d+)"
     },
     "autoupdate": {
