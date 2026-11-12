@@ -8,7 +8,7 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/mayocream/koharu/releases/download/0.83.5/koharu_0.83.5_x64-setup.exe#/dl.7z",
+            "url": "https://github.com/koharu-rs/koharu/releases/download/0.83.5/koharu_0.83.5_x64-setup.exe#/dl.7z",
             "hash": "fc4eacb5e762e132f5686493288424a8762735daa842ceeb10f0c172bbcf9235"
         }
     },
@@ -32,12 +32,12 @@
         "config.toml"
     ],
     "checkver": {
-        "github": "https://github.com/mayocream/koharu"
+        "github": "https://github.com/koharu-rs/koharu"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/mayocream/koharu/releases/download/$version/koharu_$version_x64-setup.exe#/dl.7z"
+                "url": "https://github.com/koharu-rs/koharu/releases/download/$version/koharu_$version_x64-setup.exe#/dl.7z"
             }
         }
     }

@@ -1,11 +1,11 @@
 {
     "version": "0.8.2",
     "description": "Command line tool to show clear git graphs arranged for your branching model",
-    "homepage": "https://github.com/mlange-42/git-graph",
+    "homepage": "https://github.com/git-bahn/git-graph",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/mlange-42/git-graph/releases/download/v0.8.2/git-graph-v0.8.2-windows-amd64.tar.gz",
+            "url": "https://github.com/git-bahn/git-graph/releases/download/v0.8.2/git-graph-v0.8.2-windows-amd64.tar.gz",
             "hash": "f8d9f80d274437cccf83902f06ef768d940489eab95222be75a86581d8543a1c"
         }
     },
@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/mlange-42/git-graph/releases/download/v$version/git-graph-v$version-windows-amd64.tar.gz"
+                "url": "https://github.com/git-bahn/git-graph/releases/download/v$version/git-graph-v$version-windows-amd64.tar.gz"
             }
         }
     }
